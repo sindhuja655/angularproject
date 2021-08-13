@@ -1,0 +1,538 @@
+<nav class="navbar navbar-expand-lg  container-fluid  fixed-top PY-3" style="background-color:black;" (scroll)="onWindowScroll();"
+    [ngClass]="{'white':scrolledPercentage >=70}">
+    <div class="container-fluid ">
+        <div class="  navbar-brand pl-5 ">
+            <img 
+            class="ninemm-logo"
+            src="https://images.prismic.io/9mmenergydrink/4864fab7-74df-465e-bf9f-44f7e96a3b82_9mm-beyond-logo.png?auto=compress,format&amp;rect=0,0,200,150&amp;w=200&amp;h=70"
+            alt="null">
+        </div>
+        <div style="display: inline;" class="row">
+            <div class="d-block d-lg-none col-3 pt-3" style="position: absolute;">
+                <div class="cart-icon" style="position: relative;">
+                    <!-- <i class='bx bx-cart text-white' [ngClass]="{'text-dark':scrolledPercentage >= 70}"
+                        style="font-size: 40px;">
+                    </i> -->
+                    <div class="cart-value" style="position: absolute;background-color:rgb(164, 226, 19);border: 1px; 
+                    border-radius: 50%;padding: 0px 5px;top: -5px;left: 30px;">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-2 d-block d-md-none d-flex">
+                <li class="float-left" style="margin: 0px 0px 0px 0px;"><a [ngClass]="{'text-dark':scrolledPercentage >= 70}" class=""><i [ngClass]="{'text-dark':scrolledPercentage >= 70}" class='fas fa-cart-plus' 
+                                                  style=" color:white;font-size: 28px;margin-top:24px;margin-right: 30px;">
+                                              </i></a>
+                                              </li>
+                <li class="float-left" style="padding: 0px 0px 0px 0px;"><a [ngClass]="{'text-dark':scrolledPercentage >= 70}" class="">
+                    <button class="navbar-toggler  " type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="">
+                        <i class='bx bx-menu' style='color:#f8f6f2;font-size: 50px;' [ngClass]="{'text-dark':scrolledPercentage >= 70}" ></i>
+                    </span>
+                </button>
+                </a>
+                                            </li>
+            </div>
+        </div>
+        <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+            <ul class="navbar-nav bgdark d-block d-sm-block d-md-block d-lg-none pt-2 navui justify-content-center">
+                <li class="nav-item bgdark text-white active " [ngClass]="{'text-dark':scrolledPercentage >= 70}">
+                    HOME
+                </li>
+                <li class="nav-item bgdark text-white pr-3" [ngClass]="{'text-dark':scrolledPercentage >= 70}">
+                    SHOP
+                </li>
+                <li class="nav-item bgdark text-warning pr-3 active" [ngClass]="{'text-dark':scrolledPercentage >= 70}">
+                    WHATS INSIDE
+                </li>
+                <li class="nav-item bgdark text-white  pr-3" [ngClass]="{'text-dark':scrolledPercentage >= 70}">
+                    AL BRAIN
+                </li>
+                <li class="nav-item bgdark text-white pr-3" [ngClass]="{'text-dark':scrolledPercentage >= 70}">
+                    BLOG
+                </li>
+                <li class="nav-item bgdark text-white pr-3" [ngClass]="{'text-dark':scrolledPercentage >= 70}">
+                    CONTACT
+                </li>
+            </ul>
+        </div>
+
+        <div class="collapse navbar-collapse  justify-content-end " style="margin-left: -10px;">
+            <ul class="navbar-nav">
+                <li class="nav-item active pr-3 ">
+                    <a class="nav-link text-white" [ngClass]="{'text-dark':scrolledPercentage >= 70}" href="#">About</a>
+                </li>
+                <li class="nav-item pr-3 ">
+                    <a class="nav-link text-white" [ngClass]="{'text-dark':scrolledPercentage >= 70}" href="#">Shop</a>
+                </li>
+                <li class="nav-item pr-3 text-warning ">
+                    <a class="nav-link text-warning " href="#">Whats ACT-10 TM</a>
+                </li>
+                <li class="nav-item  pr-3 ">
+                    <a class="nav-link text-white" [ngClass]="{'text-dark':scrolledPercentage >= 70}" href="#">All
+                        Brain</a>
+                </li>
+                <li class="nav-item pr-3 ">
+                    <a class="nav-link text-white" [ngClass]="{'text-dark':scrolledPercentage >= 70}" href="#">Blog</a>
+                </li>
+                <li class="nav-item pr-2 ">
+                    <a class="nav-link text-white" [ngClass]="{'text-dark':scrolledPercentage >= 70}"
+                        href="#">Contacts</a>
+                </li>
+               
+                <li class="nav-item pr-2 "><a [ngClass]="{'text-dark':scrolledPercentage >= 70}" class="nav-link text-white"  ><i class='	fas fa-cart-plus' 
+                    style="font-size: 20px;">
+                </i></a></li>
+
+            </ul>
+        </div>
+      
+    </div>
+</nav>
+
+<div class="container-fluid ">
+    <div class="row  justify-content-center">
+        <div class="container col-12 col-md-6  mt-5 ">
+            <img src="https://wallpaperaccess.com/full/139067.jpg
+            "alt="" class="imgtwo" srcset="">
+            <div class=" col-12 d-none d-md-none  mt-5 pt-5 ">
+                <div class="col pt-5">
+                    <h1 class="pt-5 pl-5 " >
+                        WE GENERATE 
+                        CREATIVE & 
+                        NOVATION IDEAS
+                    </h1>
+                    <p class=" text-light py-3 pl-5 para"> Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit</p>
+                </div>
+                <div class="row justify-content-center ">
+                    <p class="text-light ">SCROLL <br>
+                        <i class="fa fa-angle-down pl-3" style='font-size:32px;color:#f6f3f3;'></i>
+                    </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 d-none d-md-block d-lg-block topmenu mt-5 pt-5 ">
+            <div class="col ">
+                <h1 class="  pt-5 pl-5 " style="width: 50%;color: rgb(223, 188, 35);font-size: 2rem;">
+                    WE GENERATE CREATIVE & NOVATION IDEAS
+                </h1>
+                <p class=" text-light py-3 pl-5 para"> Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit</p>
+            </div>
+            <div class="  row justify-content-center mt-5 pt-5">
+                <p class=" text-light para mt-5 pt-5">SCROLL <br>
+                    <i class="fa fa-angle-down pl-3" style='font-size:36px;color:#f6f3f3;'></i>
+                </p>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+     <div class="container-fluid  " >
+    <div class="row  justify-content-md-center text-center pt-5 py-5">
+        <div class="row  justify-content-md-center text-center pt-5 py-5">
+            <h1 class="header text-center  pt-3">LATEST PRODUCTS</h1>
+        </div>
+    </div>
+    <div class="row d-none d-md-block  px-5">
+        <img src="https://images.prismic.io/9mmenergydrink/e4119321-86c0-4f4a-9a15-96225ff86ca6_1-Ecosysteme-Home-Page.jpg?auto=compress,format&rect=0,0,1289,453&w=1289&h=453" alt="" width="100%" height="100%" class="py-3  px-1">
+    </div>
+    <div class="row d-block d-md-none">
+        
+        <img src="https://images.prismic.io/9mmenergydrink/e4119321-86c0-4f4a-9a15-96225ff86ca6_1-Ecosysteme-Home-Page.jpg?auto=compress,format&rect=0,0,1289,453&w=1289&h=453" alt="" width="100%" height="100%" class="py-3  px-1">
+    </div>
+     <div >
+       <div class="row  justify-content-center py-5 px-5">
+            <div class="col-lg-4 col-md-6  col-sm-12  pl-5">
+                <div>
+                    <h5 class=" " style="width: 50%;color: rgb(223, 188, 35);font-size: 1.5rem;">COMMERCIAL</h5>
+                </div>
+                <div>
+                    <h2 class=" text-light" style="width: 70%;">
+                        RAW DENIM PHOTO  BOOTH SEMIOTICS  3 WOLF MOON
+                    </h2>
+                </div>
+                <div class="pl-2" >
+                    <ul class="list-group unorder  ">
+                        <li class=" text-light ">BRANDING DESIGN ART</li>
+                        <li class=" text-light ">BRANDING DESIGN ART</li>
+                        <li class=" text-light ">BRANDING DESIGN ART</li>
+                        <li class=" text-light ">BRANDING DESIGN ART</li>
+                        <li class=" text-light ">BRANDING DESIGN ART</li>
+                        <li class=" text-light ">BRANDING DESIGN ART</li>
+
+
+                    </ul>
+                </div>
+
+
+            </div>
+            <div class="col-md-6 col-lg-7 col-12  ">
+                <p class=" paracolur  d-none d-md-none d-lg-block px-5">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut  enim ad minim veniam, quis nostrud exercitation ullamco laboris    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in  reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla   pariaturLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                </p>
+                <p class=" paracolur d-block d-md-block d-lg-none pt-5">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                </p>
+            </div>
+
+        </div> 
+        
+        <div class="container-fluid  px-5">
+            <div class="row justify-content-center ">
+                <div class="col-12 col-md-6 ">
+                    <img src="https://images.unsplash.com/photo-1513097847644-f00cfe868607?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=332&q=80" class="imgthree " alt="">
+                </div>
+                <div class="col-12 col-md-6  bg-warning py-5"  >
+                    <div class="row justify-content-center bg-warning loren">
+                        <h3 class="text-light bg-warning  pl-5" style="font-size: 25px;">
+                            Lorem ipsum dolor sit amet
+                        </h3>
+                        <p class="bg-warning text-light pl-5 py-2"><small class="bg-warning text-light lorenpara">
+                            Lorem ipsum dolor sit amet ipsum dolor sit amet, consectetur  adipiscing elit, sed do eiusmod tempor incididunt</small>
+                        </p>
+                    </div>
+                    <div class="row justify-content-center bg-warning pt-3">
+                        <button type="submit" class=" text-warning" style="background-color: black;"
+                            data-toggle="modal" data-target="#myModal">SHOP NOW
+                        </button>
+                    </div>
+                </div>
+                <div class="row  justify-content-center py-5 px-5">
+                    <div class="col-lg-4 col-md-6  col-sm-12  pl-5">
+                        <div>
+                            <h5 class="  " style="width: 50%;color: rgb(223, 188, 35);font-size: 1.5rem;">COMMERCIAL</h5>
+                        </div>
+                        <div>
+                            <h2 class=" text-light" style="width: 70%;">
+                                RAW DENIM PHOTO  BOOTH SEMIOTICS  3 WOLF MOON
+                            </h2>
+                        </div>
+                        <div class="pl-3" >
+                            <ul class="list-group unorder  ">
+                                <li class=" text-light ">BRANDING DESIGN ART</li>
+                        <li class=" text-light ">BRANDING DESIGN ART</li>
+                        <li class=" text-light ">BRANDING DESIGN ART</li>
+                        <li class=" text-light ">BRANDING DESIGN ART</li>
+                        <li class=" text-light ">BRANDING DESIGN ART</li>
+                        <li class=" text-light ">BRANDING DESIGN ART</li>
+                            </ul>
+                        </div>
+        
+        
+                    </div>
+                    <div class="col-md-6 col-lg-7 col-12  ">
+                        <p class=" paracolur  d-none d-md-none d-lg-block px-5">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut  enim ad minim veniam, quis nostrud exercitation ullamco laboris    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in  reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla   pariaturLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                        </p>
+                        <p class=" paracolur d-block d-md-block d-lg-none pt-5">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                        </p>
+                    </div>
+        
+                </div> 
+                <div class="col-12 col-md-6 ">
+                    <img src="https://images.unsplash.com/photo-1485727749690-d091e8284ef3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" class="imgthree " alt="">
+                </div>
+                <div class="col-12 col-md-6  bg-warning py-5"  >
+                    <div class="row justify-content-center bg-warning loren">
+                        <h3 class="text-light bg-warning  pl-5" style="font-size: 25px;">
+                            Lorem ipsum dolor sit amet
+                        </h3>
+                        <p class="bg-warning text-light pl-5 py-2"><small class="bg-warning text-light lorenpara">
+                            Lorem ipsum dolor sit amet ipsum dolor sit amet, consectetur  adipiscing elit, sed do eiusmod tempor incididunt</small>
+                        </p>
+                    </div>
+                    <div class="row justify-content-center bg-warning pt-3">
+                        <button type="submit" class=" text-warning" style="background-color: black;"
+                            data-toggle="modal" data-target="#myModal">SHOP NOW
+                        </button>
+                    </div>
+                                                    
+                </div>
+                <div class="row  justify-content-center py-5 px-5">
+                    <div class="col-lg-4 col-md-6  col-sm-12  pl-5">
+                        <div>
+                            <h5 class="  " style="width: 50%;color: rgb(223, 188, 35);font-size: 1.5rem;">COMMERCIAL</h5>
+                        </div>
+                        <div>
+                            <h2 class=" text-light" style="width: 70%;">
+                                RAW DENIM PHOTO  BOOTH SEMIOTICS  3 WOLF MOON
+                            </h2>
+                        </div>
+                        <div class="pl-3" >
+                            <ul class="list-group unorder  ">
+                                <li class=" text-light ">BRANDING DESIGN ART</li>
+                                <li class=" text-light ">BRANDING DESIGN ART</li>
+                                <li class=" text-light ">BRANDING DESIGN ART</li>
+                                <li class=" text-light ">BRANDING DESIGN ART</li>
+                                <li class=" text-light ">BRANDING DESIGN ART</li>
+                                <li class=" text-light ">BRANDING DESIGN ART</li>
+                            </ul>
+                        </div>
+        
+        
+                    </div>
+                    <div class="col-md-6 col-lg-7 col-12  ">
+                        <p class=" paracolur  d-none d-md-none d-lg-block px-5">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut  enim ad minim veniam, quis nostrud exercitation ullamco laboris    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in  reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla   pariaturLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                        </p>
+                        <p class=" paracolur d-block d-md-block d-lg-none pt-5">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                        </p>
+                    </div>
+        
+                </div>
+                    <div class="col-12 col-md-6 ">
+                        <img src="https://images.unsplash.com/photo-1549576490-b0b4831ef60a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" class=" " width="100%" height="400px" alt="">
+                    </div>    
+                <div class="col-12 col-md-6  py-2"  >
+                    <div class="container">
+                        <div>
+                            <div class="row justify-content-center  ">
+                                <h3 class=" text-center  pb-2 " style="width: 50%;color: rgb(223, 188, 35);font-size: 2rem;">
+                                    OUR SKILLS
+                                </h3>
+                            </div>
+                            <div class="row justify-content-center  loren px-5">
+                                <div class="container  ">
+                                    <div class="rate row ">
+                                        <h6 class="float-left" style="width: 87%;color: #f2eeee;"> G R A P H I C D E S I G N</h6>
+                                        <h6 class="float-right" style="width: 13%;color: #f2eeee;">63%</h6>
+                                    </div>
+                                    <div class="">
+                                        <p>
+                                                <mat-progress-bar mode="determinate" value="63"  textType="white" height="5px" ></mat-progress-bar>
+                                        </p>
+                                    </div>
+                                    <div class="rate row ">
+                                        <h6 class="float-left" style="width: 87%;color: #f2eeee;"> P R O D U C T B R A N D I N G</h6>
+                                        <h6 class="float-right" style="width: 13%;color: #f2eeee;">80%</h6>
+                                    </div>
+                                    <div class="">
+                                        <p>
+                                                <mat-progress-bar mode="determinate" value="80" type="warning" textType="white" height="5px" ></mat-progress-bar>
+
+                                        </p>
+                                    </div>
+                                    <div class="rate row ">
+                                        <h6 class="float-left" style="width: 87%; color: #f2eeee;">B U S I N E S S P L A N I N G</h6>
+                                        <h6 class="float-right" style="width: 13%;color: #f2eeee;">100%</h6>
+                                    </div>
+                                    <div class="">
+                                        <p>
+                                            
+                                                <mat-progress-bar mode="determinate" value="100" type="warning" textType="white" height="5px" ></mat-progress-bar>
+
+                                        </p>
+                                    </div>
+                                    <div class="rate row ">
+                                        <h6 class="float-left" style="width: 87%;color: #f2eeee;"> G R A P H I C D E S I G N</h6>
+                                        <h6 class="float-right" style="width: 13%;color: #f2eeee;">93%</h6>
+                                    </div>
+                                    <div class="">
+                                        <p>
+                                           
+                                                <mat-progress-bar mode="determinate" value="93" type="warning" textType="white" height="5px" ></mat-progress-bar>
+
+                                        </p>
+                                    </div>
+                                    <div class="rate row ">
+                                        <h6 class="float-left" style="width: 87%;color: #f2eeee;">M A R K E T R E S E A R C H</h6>
+                                        <h6 class="float-right" style="width: 13%;color: #f2eeee;">75%</h6>
+                                    </div>
+                                    <div class="">
+                                        <p>
+                                     
+                                                <mat-progress-bar mode="determinate" value="75" type="warning" textType="white" height="5px" ></mat-progress-bar>
+
+                                        </p>
+                                    </div>
+                                    <div class="rate row ">
+                                        <h6 class="float-left" style="width: 87%;color: #f2eeee;"> S T R A T E G I C C O N S U L T I N G</h6>
+                                        <h6 class="float-right" style="width: 13%;color: #f2eeee;">87%</h6>
+                                    </div>
+                                    <div class="">
+                                        <p>
+                                     
+                                                <mat-progress-bar mode="determinate" value="87" type="warning" textType="white" height="5px" ></mat-progress-bar>
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            
+        </div>
+
+       </div> 
+</div> 
+       <div class="container-fluid bgwhite  py-3">
+        <div class="row bgwhite justify-content-md-center ">
+            <h1 class="bgwhite pt-5  head header text-center">OUR SERVICES</h1><br>
+        </div>
+        <div class="row bgwhite justify-content-md-center ">
+            <h6 class=" text-dark bgwhite rowh6   text-center" style="font-size: 1rem;">WE CREATES BEST PRODUCTS</h6>
+        </div>
+
+        <div class="content card-deck" flex="50" layout="row" layout-align="center">
+            <div fxLayout="row wrap" fxLayoutGap="10px"style="width:100%">
+              <div fxFlex="32%"  fxFlex.xs="100%" fxFlex.sm="33%" *ngFor="let num of [1,2,3,4,5,6]">
+                <mat-card class="mat-elevation-z4 center z-depth mat" >
+                  <mat-card-header>
+                    <mat-card-title>DIGITAL PRODUCTS {{num}}</mat-card-title>
+                  </mat-card-header>
+                  <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg">
+                  <mat-card-content>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    </p>
+                  </mat-card-content>
+                
+                </mat-card>
+              </div>
+            </div>
+            </div>
+            </div> 
+            <div class="container-fluid bg-dark pb-3 px-5">
+    <div class="row bg-dark headertw0 px-5 py-3">
+        <h1 class="text-warning d-none d-md-block bg-dark pt-3"  style="font-size: 2rem;">FINE FOLKS <br>
+            WE'VE WORKED <br>
+            WITH
+        </h1>
+        <h1 class="text-warning headertw0 bg-dark pt-3 d-block d-md-none">
+            ALL NATURAL ENHANCED ENERGY
+            ENIRICHED WITH ACT-10™
+            THE WORLDS HEALTHIEST SUPER
+            INGREDIENT
+        </h1>
+    </div>
+    <div class="row bg-dark px-5">
+        <div
+            class="col-6 col-md-3 bg-dark borderfirst borderbottom borderrightmd borderbottommd borderright text-center  py-5">
+            <i class='fas fa-dumbbell text-center' style='font-size:48px;color:#989e99'></i>
+            <h6 class="text-center pt-3"  style="font-size: 1rem;color:#989e99">All natural</h6>
+        </div>
+        <div
+            class="col-6 col-md-3 bg-dark text-center borderbottom borderrightmd borderbottommd  border-four borderfirst py-5">
+            <i class='fas fa-running' style='font-size:48px;color:#989e99'></i>
+            <h6 class="text-center pt-3"  style="font-size: 1rem;color:#989e99">Antioxidant</h6>
+        </div>
+        <div
+            class="col-6 col-md-3 bg-dark text-center borderright borderrightmd borderbottommd borderbottom borderfirst py-5">
+            <i class='fas fa-leaf' style='font-size:48px;color:#989e99'></i>
+            <h6 class="text-center pt-3"  style="font-size: 1rem;color:#989e99"> Natural Energy</h6>
+        </div>
+        <div class="col-6 col-md-3 bg-dark text-center borderbottom borderbottommd borderthree py-5">
+            <i class='fas fa-brain' style='font-size:48px;color:#989e99'></i>
+            <h6 class="text-center pt-3"  style="font-size: 1rem;color:#989e99">  Athletic Performance
+            </h6>
+        </div>
+        <div
+            class="col-6 col-md-3 bg-dark text-center borderright borderrightmd borderbottommd borderbottom borderfirst py-5">
+            <i class='fas fa-brain' style='font-size:48px;color:#989e99'></i>
+            <h6 class="text-center pt-3"  style="font-size: 1rem;color:#989e99">Brain Health</h6>
+        </div>
+        <div class="col-6 col-md-3 bg-dark text-center borderbottom borderrightmd borderbottommd borderfirst py-5">
+            <i class="fas fa-user-md"style="font-size:48px;color:#989e99"></i>
+            <h6 class="text-center pt-3"  style="font-size: 1rem;color:#989e99">Cardiovascular Health</h6>
+        </div>
+        <div
+            class="col-6 col-md-3 bg-dark text-center borderright borderrightmd borderbottommd borderbottom borderfirst py-5">
+            <i class='fas fa-file-medical' style='font-size:48px;color:#989e99'></i>
+            <h6 class="text-center pt-3"  style="font-size: 1rem;color:#989e99">Exercise Recovery
+                inflammation</h6>
+        </div>
+        <div class="col-6 col-md-3 bg-dark text-center borderbottom borderbottommd borderthree py-5">
+            <i class='fas fa-bone' style='font-size:48px;color:#989e99'></i>
+            <h6 class="text-center pt-3"  style="font-size: 1rem;color:#989e99">Eye Health</h6>
+        </div>
+        <div class="col-6 col-md-3 bg-dark text-center borderrightmd  borderbottom borderright bordersec py-5">
+            <i class='far fa-eye' style='font-size:48px;color:#989e99'></i>
+            <h6 class="text-center pt-3"  style="font-size: 1rem;color:#989e99">Healthy Inflammantory
+                Response</h6>
+        </div>
+        <div class="col-6 col-md-3 bg-dark text-center borderbottom borderrightmd bordersec py-5">
+            <i class="fas fa-heartbeat" style='font-size:48px;color:#989e99'></i>
+            <h6 class="text-center pt-3"  style="font-size: 1rem;color:#989e99">Immunity Support</h6>
+        </div>
+        <div class="col-6 col-md-3 bg-dark text-center borderright borderrightmd bordersec borderfive py-5">
+            <i class='fas fa-dumbbell' style='font-size:48px;color:#989e99'></i>
+            <h6 class="text-center pt-3"  style="font-size: 1rem;color:#989e99">Join Health</h6>
+        </div>
+        <div class="col-6 col-md-3 bg-dark text-center borderfive  py-5">
+            <i class="far fa-grin-beam-sweat"  style='font-size:48px;color:#989e99'></i>
+            <h6 class="text-center pt-3"  style="font-size: 1rem;color:#989e99">Skin Health</h6>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+ <div class="container-fluid ">
+    <div class="row justify-content-center  py-5">
+        <div class="col-lg-3 col-12  pt-5">
+            <h3 class="text-warning pl-5 py-2"  style="font-size: 2rem;">9 MM</h3>
+            <p class="pl-5 py-2  text-light">ENERGY DRINK</p>
+            <p class="pl-5 py-2  text-light">SUIVEZ-NOUS</p>
+            <div class="row pl-5 py-2">
+                <span class="text-center">
+                    <i class='bx bxl-facebook-square '
+                        style='color:#1838b1;font-size: 30px;'></i></span>
+                <span>
+                    <i class='bx bxl-instagram' style='color:#bb1cd2;font-size: 30px;'></i>
+                </span>
+                <span>
+                    <i class='bx bxl-youtube' style='color:#d40f3e;font-size: 30px;'></i>
+                </span>
+            </div>
+        </div>
+        <div class="col-lg-3 col-12  site-footer">
+            <ul class="list-group  pt-5">
+                <li class=" text-light pl-5  py-2">ABOUT</li>
+                <li class=" text-light pl-5  py-2">SHOP</li>
+                <li class=" text-light pl-5 py-2">WHATS INSIDE</li>
+                <li class=" text-light pl-5 py-2">ALL BRAIN</li>
+                <li class=" text-light pl-5 py-2">BLOG</li>
+                <li class=" text-light pl-5 py-2">CONTACT</li>
+            </ul>
+        </div>
+        <div class="col-lg-3 col-12 ">
+            <div class="row justify-content-center"></div>
+            <ul class="list-group  pt-5 ">
+                <li class=" text-light pl-5 py-2">
+                    <i class='bx bx-mail-send' style='color:#f6f3f3'></i>
+                    EMAIL@XEN_AGENCY.COM
+                </li>
+                <li class=" text-light pl-5 py-2">
+                    <i class='bx bx-mobile' style='color:#f2eeee'></i>
+                    +23 8 8532 7834
+                </li>
+                <li class=" text-light pl-5 py-2">
+                    <i class='bx bxs-edit-location' style='color:#f2efef'></i>
+                    PO BOX 223158OLIVER STREET EAST VICTORIA 2006 UK
+                </li>
+            </ul>
+        </div>
+        <div class="col-lg-3 col-12 pt-2  text-center">
+            <img src="https://images.prismic.io/9mmenergydrink/3ad7bf9e-7de2-4ead-a09a-c24b8aa5a76b_logo-reach-your-target+.png?auto=compress,format&rect=0,0,213,245&w=213&h=245" alt="">
+        </div>
+
+    </div>
+</div> 
+<div class="row  justify-content-center  text-light py-3">
+    <footer class="blockquote-footer bg dark text-light"  style="font-size: 1rem;">
+        ©Copy right 2021 9MM Energy Drink
+    </footer>
+</div>
